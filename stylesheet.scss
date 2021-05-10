@@ -1029,6 +1029,38 @@
                                         margin-left: 90px;
                                         }
                                     }
+
+                                    .bannerbtnDM {
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-evenly;
+                                        width: 224px;
+                                        height: 62px;
+                                        font-size: 1.25rem;    
+                                        color: white;
+                                        background-color: #2ecc71;
+                                        border: none;
+                                        border-radius: 3px;
+                                        letter-spacing: 0.4px;
+                                        line-height: 60px;
+                                        padding-left: 10px;
+                                        &:hover {
+                                            background-color: #26ab5f;
+                                        }
+                                        .fas {
+                                            margin-top: 20px;
+                                        }
+                                    }
+                                    @media (min-width: 480px) and (max-width: 767.98px) {
+                                        .bannerbtnDM{
+                                            margin-left: 125px;             
+                                            }
+                                        }
+                                    @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+                                        .bannerbtnDM {
+                                            margin-left: 90px;
+                                            }
+                                        }
                 
         .bannerbtnCS {
             display: flex;
