@@ -818,12 +818,14 @@
                 #banner-slider {
                     width: 100%;
                     height: 679px;
+                    position: relative;
                 }
 
                 .bannercontainer {
                     display: flex;
                     width: 100%;
                     overflow: hidden;
+                    position: relative;
                     .bannerimage {
                         width: 100%;
                         filter: brightness(50%);
@@ -837,15 +839,18 @@
                         letter-spacing: 0.4px;
                         margin-top: 200px;
                         margin-left: 400px;
+                        position: absolute;
                     }
                     .bannerh1 {
                         font-size: 3rem;
                         color: white;
+                        position: absolute;
                     }
                     .bannerP {
                         font-size: 1.25rem;
                         color: white;
                         padding-bottom: 45px;
+                        position: absolute;
                     }
                 }
 

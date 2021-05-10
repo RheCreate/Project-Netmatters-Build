@@ -1048,6 +1048,7 @@ body {
 #banner-slider {
   width: 100%;
   height: 679px;
+  position: relative;
 }
 
 .bannercontainer {
@@ -1056,6 +1057,7 @@ body {
   display: flex;
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .bannercontainer .bannerimage {
@@ -1079,17 +1081,20 @@ body {
   letter-spacing: 0.4px;
   margin-top: 200px;
   margin-left: 400px;
+  position: absolute;
 }
 
 .bannercontainer .bannerh1 {
   font-size: 3rem;
   color: white;
+  position: absolute;
 }
 
 .bannercontainer .bannerP {
   font-size: 1.25rem;
   color: white;
   padding-bottom: 45px;
+  position: absolute;
 }
 
 .bannerbtnWD {
