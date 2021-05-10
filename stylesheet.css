@@ -1045,6 +1045,11 @@ body {
   margin-right: 25px;
 }
 
+#banner-slider {
+  width: 100%;
+  height: 679px;
+}
+
 .bannercontainer {
   display: -webkit-box;
   display: -ms-flexbox;
