@@ -1054,7 +1054,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
   width: 100%;
   overflow: hidden;
 }
@@ -1075,7 +1074,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: absolute;
   color: white;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.4px;
