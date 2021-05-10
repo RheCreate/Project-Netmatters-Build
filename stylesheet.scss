@@ -823,89 +823,35 @@
                 .bannercontainer {
                     display: flex;
                     position: relative;
-                    width: 1903px;
-                    height: 759px;
+                    width: 100%;
                     overflow: hidden;
-                }
-                @media (min-width: 480px) and (max-width: 767.98px) {
-                    .bannercontainer{
-                        width: 483px;  
-                             height: 774px;       
-                        }
+                    .bannerimage {
+                        width: 100%;
+                        filter: brightness(50%);
                     }
-                @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-                    .bannercontainer {
-                        width: 940px;
-                        height: 832px;
-                    }
-                    }
-                @media only screen and (min-width: 992px) and (max-width: 1242.98px) {
-                        .bannercontainer {
-                           width: 100%;
-                        }
-                    }
-    
-                .bannerimage {
-                    filter: brightness(50%);
-                }
-
-                .bannertxt {
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: column;
-                    position: absolute;
-                    color: white;
-                    font-family: 'Poppins', sans-serif;
-                    letter-spacing: 0.4px;
-                    margin-top: 200px;
-                    margin-left: 400px;
-                }
-                @media (min-width: 480px) and (max-width: 767.98px) {
                     .bannertxt {
-                      margin-top: 180px;  
-                      margin-left: 0;
-                        }
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        position: absolute;
+                        color: white;
+                        font-family: 'Poppins', sans-serif;
+                        letter-spacing: 0.4px;
+                        margin-top: 200px;
+                        margin-left: 400px;
                     }
-                @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-                    .bannertxt {
-                        margin-top: 225px;
-                        text-align: center;
-                        justify-content: center;
-                        margin-left: 260px;
-                    }
-                    }
-                @media only screen and (min-width: 992px) and (max-width: 1242.98px) {
-                        .bannertxt {
-                            justify-content: center;
-                            margin-top: 190px;
-                            margin-left: 0;
-                            padding-left: 25px;
-                        }
-                    }
-
-                .bannerh1 {
-                    font-size: 3rem;
-                    color: white;
-                }
-                @media (min-width: 480px) and (max-width: 767.98px) {
                     .bannerh1 {
-                        margin-left: 30px;           
-                        }
+                        font-size: 3rem;
+                        color: white;
                     }
-
-                .bannerP {
-                    font-size: 1.25rem;
-                    color: white;
-                    padding-bottom: 45px;
+                    .bannerP {
+                        font-size: 1.25rem;
+                        color: white;
+                        padding-bottom: 45px;
+                    }
                 }
-                @media (min-width: 480px) and (max-width: 767.98px) {
-                    .bannerP{
-                        text-align: center;
-                        margin-left: 15px;               
-                        }
-                    }
 
-                    //Button styling
+                    //Banner button styling
 
                     .bannerbtnWD {
                         display: flex;
