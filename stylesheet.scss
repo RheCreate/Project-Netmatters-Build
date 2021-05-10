@@ -819,12 +819,10 @@
                     width: 100%;
                     height: 679px;
                 }
-
                 .bannercontainer {
                     display: flex;
-                    width: 100%;
-                    overflow: hidden;
                     position: relative;
+                }
                     .bannerimage {
                         width: 100%;
                         filter: brightness(50%);
@@ -833,26 +831,24 @@
                         display: flex;
                         flex-wrap: wrap;
                         flex-direction: column;
+                        position: absolute;
                         color: white;
                         font-family: 'Poppins', sans-serif;
                         letter-spacing: 0.4px;
                         margin-top: 200px;
                         margin-left: 400px;
-                        position: absolute;
+                        height: 670px;
                     }
                     .bannerh1 {
                         font-size: 3rem;
                         color: white;
-                        position: absolute;
                     }
                     .bannerP {
                         font-size: 1.25rem;
                         color: white;
                         padding-bottom: 45px;
-                        position: absolute;
                     }
-                }
-
+                
                     //Banner button styling
 
                     .bannerbtnWD {

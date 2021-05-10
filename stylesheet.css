@@ -1054,18 +1054,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  overflow: hidden;
   position: relative;
 }
 
-.bannercontainer .bannerimage {
+.bannerimage {
   width: 100%;
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
 }
 
-.bannercontainer .bannertxt {
+.bannertxt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1075,25 +1073,24 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: absolute;
   color: white;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.4px;
   margin-top: 200px;
   margin-left: 400px;
-  position: absolute;
+  height: 670px;
 }
 
-.bannercontainer .bannerh1 {
+.bannerh1 {
   font-size: 3rem;
   color: white;
-  position: absolute;
 }
 
-.bannercontainer .bannerP {
+.bannerP {
   font-size: 1.25rem;
   color: white;
   padding-bottom: 45px;
-  position: absolute;
 }
 
 .bannerbtnWD {
