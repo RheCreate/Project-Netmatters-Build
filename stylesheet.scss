@@ -1000,6 +1000,21 @@
 
         //Banner media queries
 
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            #banner-slider {
+                height: 687px;
+            }
+            .bannercontainer {
+                height: 715px;
+            }
+                .bannerimage {
+                    min-height: 715px;
+                }
+                .slick-dots {
+                    bottom: 25px;
+                  }
+            }
+
         @media (min-width: 992px) and (max-width: 1242.98px){
 
             #banner-slider {
@@ -1016,7 +1031,6 @@
                   }
         }
 
- 
             //Service Tiles Section
 
             .Servicebox {
