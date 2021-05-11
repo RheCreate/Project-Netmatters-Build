@@ -104,7 +104,7 @@
 
 .slick-dots {
   position: absolute;
-  bottom: 0px;
+  bottom: -25px;
   list-style: none;
   display: block;
   text-align: center;
@@ -153,19 +153,17 @@
   width: 20px;
   height: 20px;
   font-family: "slick";
-  font-size: 11px;
+  font-size: 6px;
   line-height: 20px;
   text-align: center;
-  color: #d6d6d6;
+  color: black;
   opacity: 0.25;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-dots li.slick-active button:before {
-  color: #d6d6d6;
-  opacity: 1;
-  border: 2px solid white;
-  border-radius: 30px;
+  color: black;
+  opacity: 0.75;
 }
 /*# sourceMappingURL=slick-theme.css.map */
