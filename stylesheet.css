@@ -1296,6 +1296,21 @@ body {
   margin-top: 20px;
 }
 
+@media (min-width: 992px) and (max-width: 1242.98px) {
+  #banner-slider {
+    height: 588px;
+  }
+  .bannercontainer {
+    height: 615px;
+  }
+  .bannerimage {
+    min-height: 615px;
+  }
+  .slick-dots {
+    bottom: 25px;
+  }
+}
+
 .Servicebox {
   display: -webkit-box;
   display: -ms-flexbox;
