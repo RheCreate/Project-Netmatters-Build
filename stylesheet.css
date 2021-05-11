@@ -1296,6 +1296,30 @@ body {
   margin-top: 20px;
 }
 
+@media (max-width: 479.98px) {
+  #banner-slider {
+    height: 629px;
+  }
+  .bannercontainer {
+    height: 667px;
+  }
+  .bannerimage {
+    min-height: 667px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767.98px) {
+  #banner-slider {
+    height: 629px;
+  }
+  .bannercontainer {
+    height: 667px;
+  }
+  .bannerimage {
+    min-height: 667px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   #banner-slider {
     height: 687px;
@@ -1305,9 +1329,6 @@ body {
   }
   .bannerimage {
     min-height: 715px;
-  }
-  .slick-dots {
-    bottom: 25px;
   }
 }
 
@@ -1321,8 +1342,17 @@ body {
   .bannerimage {
     min-height: 615px;
   }
-  .slick-dots {
-    bottom: 25px;
+}
+
+@media (min-width: 1243px) {
+  #banner-slider {
+    height: 679px;
+  }
+  .bannercontainer {
+    height: 709px;
+  }
+  .bannerimage {
+    min-height: 709px;
   }
 }
 
