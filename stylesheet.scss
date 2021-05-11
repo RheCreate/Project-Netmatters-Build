@@ -848,6 +848,21 @@
                         color: white;
                         padding-bottom: 45px;
                     }
+                    .slick-dots {
+                        bottom: 0px;
+                      }
+                     
+                    .slick-dots li button:before {
+                        font-size: 11px;
+                        color: #d6d6d6;
+                        opacity: 50%;            
+                      }
+                      .slick-dots li.slick-active button:before {
+                        color: #d6d6d6;
+                        opacity: 1;
+                        border: 2px solid white;
+                        border-radius: 30px;
+                      }
                 
                     //Banner button styling
 
