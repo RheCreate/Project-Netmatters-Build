@@ -1,7 +1,0 @@
-{
-  "extends": "stylelint-config-standard",
-  "severity": "error",
-  "rules": {
-    "indentation": 4
-  }
-}
