@@ -363,7 +363,7 @@
     right: 0;
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+    padding-top: 5px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     ul {
         list-style-type: none;
@@ -384,18 +384,13 @@
     transition: 0.3s;
   }
   
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
   /* Position and style the close button (top right corner) */
   .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 30px;
-    font-size: 36px;
+    font-size: 15px;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
