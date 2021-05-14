@@ -361,15 +361,30 @@
     z-index: 1; /* Stay on top */
     top: 0;
     right: 0;
-    background-color: #111; /* Black*/
+    background-color: #333645; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 5px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    display: block;
     ul {
         list-style-type: none;
-        li {
+        text-align: left;
+        .category {
+            width: 333px;
+            height: 56px;
+            font-size: 16px;
+            margin-left: -40px;
+            padding-left: 20px;
+            border: 1px solid black ;
+        }
+        .sub {
             width: 333px;
             height: 51px;
+            font-size: 14px;
+            background-color: #22242e;
+            margin-left: -40px;
+            padding-left: 40px;
+            border: 1px solid black ;
         }
     }
   }
@@ -377,10 +392,10 @@
   /* The navigation menu links */
   .sidenav a {
     text-decoration: none;
-    font-size: 14px;
     font-family: 'Poppins', sans-serif;
-    color: #818181;
-    display: block;
+    color: white;
+    letter-spacing: 0.4px;
+    background: transparent;
     transition: 0.3s;
   }
   
