@@ -480,7 +480,7 @@ body {
   z-index: 1;
   /* Stay on top */
   top: 0;
-  left: 0;
+  right: 0;
   background-color: #111;
   /* Black*/
   overflow-x: hidden;
@@ -492,11 +492,20 @@ body {
   /* 0.5 second transition effect to slide in the sidenav */
 }
 
+.sidenav ul {
+  list-style-type: none;
+}
+
+.sidenav ul li {
+  width: 333px;
+  height: 51px;
+}
+
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
   color: #818181;
   display: block;
   -webkit-transition: 0.3s;
@@ -512,26 +521,15 @@ body {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  right: 0;
+  margin-right: 30px;
   font-size: 36px;
-  margin-left: 50px;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  -webkit-transition: margin-left .5s;
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .mainnav-section {
