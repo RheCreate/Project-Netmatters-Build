@@ -497,7 +497,7 @@ body {
 .sidenav ul {
   list-style-type: none;
   text-align: left;
-  margin-left: 100px;
+  margin-right: -60px;
 }
 
 .sidenav ul .category {

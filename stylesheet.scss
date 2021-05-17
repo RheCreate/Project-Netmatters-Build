@@ -370,12 +370,11 @@
     ul {
         list-style-type: none;
         text-align: left;
-        margin-left: 100px;
+        margin-right: -60px;
         .category {
             width: 333px;
             height: 56px;
             font-size: 16px;
-            
             border: 1px solid black ;
         }
         .sub {
@@ -383,11 +382,11 @@
             height: 51px;
             font-size: 14px;
             background-color: #22242e;
-            
             border: 1px solid black ;
         }
     }
   }
+  
   
   /* The navigation menu links */
   .sidenav a {
