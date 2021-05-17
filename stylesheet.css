@@ -504,7 +504,8 @@ body {
   font-size: 16px;
   margin-left: -40px;
   padding-left: 20px;
-  border: 1px solid black;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .sidenav ul .sub {
@@ -514,7 +515,8 @@ body {
   background-color: #22242e;
   margin-left: -40px;
   padding-left: 40px;
-  border: 1px solid black;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 /* The navigation menu links */
