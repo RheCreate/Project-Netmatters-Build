@@ -366,15 +366,15 @@
     padding-top: 5px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     display: block;
-    direction: rtl;
     ul {
         list-style-type: none;
         text-align: left;
-        margin-right: -60px;
         .category {
             width: 333px;
             height: 56px;
             font-size: 16px;
+            margin-left: -40px;
+            padding-left: 20px;
             border: 1px solid black ;
         }
         .sub {
@@ -382,11 +382,12 @@
             height: 51px;
             font-size: 14px;
             background-color: #22242e;
+            margin-left: -40px;
+            padding-left: 40px;
             border: 1px solid black ;
         }
     }
   }
-  
   
   /* The navigation menu links */
   .sidenav a {
