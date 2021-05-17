@@ -491,19 +491,19 @@ body {
   transition: 0.5s;
   /* 0.5 second transition effect to slide in the sidenav */
   display: block;
+  direction: rtl;
 }
 
 .sidenav ul {
   list-style-type: none;
   text-align: left;
+  margin-left: 100px;
 }
 
 .sidenav ul .category {
   width: 333px;
   height: 56px;
   font-size: 16px;
-  margin-left: -40px;
-  padding-left: 20px;
   border: 1px solid black;
 }
 
@@ -512,8 +512,6 @@ body {
   height: 51px;
   font-size: 14px;
   background-color: #22242e;
-  margin-left: -40px;
-  padding-left: 40px;
   border: 1px solid black;
 }
 
@@ -539,8 +537,8 @@ body {
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: margin-right .5s;
+  transition: margin-right .5s;
 }
 
 .mainnav-section {
