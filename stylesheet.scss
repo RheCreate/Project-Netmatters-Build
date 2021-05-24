@@ -92,26 +92,27 @@
           
             // Header Bar 
 
-            .Headercontainer {
+            .header {
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 width: 1903px;
                 height: 110px;
+                background-color: white;
                 }
                 @media (min-width: 480px) and (max-width: 767.98px) {
-                    .Headercontainer{
+                    .header{
                         width: 483px;
                         height: 168px;
                         }
                     } 
                 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-                    .Headercontainer{
+                    .header{
                     width: 940px;
                     }
                     } 
                     @media only screen and (min-width: 992px) and (max-width: 1242.98px) {
-                        .Headercontainer{
+                        .header{
                             width: 1200px;
                         }
                     }
@@ -354,13 +355,14 @@
                             }
                         }
 
-                        /* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  
+                        // Header Sticky 
+                        .sticky {
+                         position: fixed;
+                         top: 0;
+                         width: 100%
+                           }
+
+
  /* The side navigation menu */
  .sidenav {
     height: 100%; /* 100% Full-height */
