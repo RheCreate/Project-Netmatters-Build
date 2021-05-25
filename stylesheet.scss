@@ -85,6 +85,9 @@
 
 /*Cookie Consent Begin*/
 #cookieConsent {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
     background-color: white;
     width: 598px;
     height: 490px;
@@ -97,19 +100,71 @@
     display: none;
     z-index: 9999;
     .ccheader {
-        height: 68px;
+        max-height: 68px;
+        border-bottom: 1px solid lightgrey;
         .cchead {
-        height: 37px;
+        max-height: 37px;
         padding-left: 20px;
-        margin-top: 20px;
+        margin-top: 15px;
+        padding-bottom: 15px;
         color: #333645;
         font-size: 26px;
         line-height: 37px;
     }
 }
+.cctext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgrey;
+    height: 335px;
+    color: #666666;
+    font-size: 16px;
+    line-height: 30px;
+    .cctext1 {
+        width: 558px;
+        max-height: 150px;
+        padding-left: 20px;
+    }
+    .cctext2 {
+        width: 558px;
+        max-height: 120px;
+        padding-left: 20px;
+    }
 }
-
-/*Cookie Consent End*/
+.ccbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 87px;
+    letter-spacing: 0.4px;
+    font-size: 17px;
+    line-height: 35px;
+    text-align: center;
+    .ccBTN1 {
+        margin-top: 20px;
+        width: 264px;
+        height: 47px;
+        background-color: #999aa2;
+        color: white;
+        border-radius: 3px;
+        .BTNtxt {
+            margin-top: 5px;
+        }
+    }
+    .cookieConsentOK {
+        margin-top: 20px;
+        width: 264px;
+        height: 47px;
+        background-color: #926fb1;
+        color: white;
+        border-radius: 3px;
+        .BTNtxt {
+            margin-top: 5px;
+        }
+    }
+}
+}
 
                         // Header & Navigation Sticky 
                         .sticky {

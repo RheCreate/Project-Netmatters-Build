@@ -123,6 +123,14 @@ input::placeholder {
 
 /*Cookie Consent Begin*/
 #cookieConsent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 3px;
   background-color: white;
   width: 598px;
   height: 490px;
@@ -137,19 +145,94 @@ input::placeholder {
 }
 
 #cookieConsent .ccheader {
-  height: 68px;
+  max-height: 68px;
+  border-bottom: 1px solid lightgrey;
 }
 
 #cookieConsent .ccheader .cchead {
-  height: 37px;
+  max-height: 37px;
   padding-left: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
+  padding-bottom: 15px;
   color: #333645;
   font-size: 26px;
   line-height: 37px;
 }
 
-/*Cookie Consent End*/
+#cookieConsent .cctext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom: 1px solid lightgrey;
+  height: 335px;
+  color: #666666;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#cookieConsent .cctext .cctext1 {
+  width: 558px;
+  max-height: 150px;
+  padding-left: 20px;
+}
+
+#cookieConsent .cctext .cctext2 {
+  width: 558px;
+  max-height: 120px;
+  padding-left: 20px;
+}
+
+#cookieConsent .ccbuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 87px;
+  letter-spacing: 0.4px;
+  font-size: 17px;
+  line-height: 35px;
+  text-align: center;
+}
+
+#cookieConsent .ccbuttons .ccBTN1 {
+  margin-top: 20px;
+  width: 264px;
+  height: 47px;
+  background-color: #999aa2;
+  color: white;
+  border-radius: 3px;
+}
+
+#cookieConsent .ccbuttons .ccBTN1 .BTNtxt {
+  margin-top: 5px;
+}
+
+#cookieConsent .ccbuttons .cookieConsentOK {
+  margin-top: 20px;
+  width: 264px;
+  height: 47px;
+  background-color: #926fb1;
+  color: white;
+  border-radius: 3px;
+}
+
+#cookieConsent .ccbuttons .cookieConsentOK .BTNtxt {
+  margin-top: 5px;
+}
+
 .sticky {
   position: fixed;
   top: 0;
