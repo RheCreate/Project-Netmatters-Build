@@ -83,6 +83,13 @@
                 }
             }
 
+                        // Header & Navigation Sticky 
+                        .sticky {
+                            position: fixed;
+                            top: 0;
+                            width: 100%;
+                              }
+
             //Body to fix default margin
 
             body {
@@ -354,14 +361,6 @@
                                 margin-left: -275px;
                             }
                         }
-
-                        // Header Sticky 
-                        .sticky {
-                         position: fixed;
-                         top: 0;
-                         width: 100%;
-                           }
-
 
  /* The side navigation menu */
  .sidenav {

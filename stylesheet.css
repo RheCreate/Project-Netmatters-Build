@@ -121,6 +121,12 @@ input::placeholder {
   }
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 body {
   margin: 0px;
 }
@@ -468,12 +474,6 @@ body {
   .HamburgerMenu {
     margin-left: -275px;
   }
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 /* The side navigation menu */
