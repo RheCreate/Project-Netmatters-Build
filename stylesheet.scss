@@ -83,6 +83,34 @@
                 }
             }
 
+/*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: white;
+    width: 598px;
+    height: 490px;
+    letter-spacing: 0.4px;
+    font-family: "Poppins" , sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+    .ccheader {
+        height: 68px;
+        .cchead {
+        height: 37px;
+        padding-left: 20px;
+        margin-top: 20px;
+        color: #333645;
+        font-size: 26px;
+        line-height: 37px;
+    }
+}
+}
+
+/*Cookie Consent End*/
+
                         // Header & Navigation Sticky 
                         .sticky {
                             position: fixed;
