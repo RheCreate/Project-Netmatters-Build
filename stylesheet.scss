@@ -92,7 +92,7 @@
           
             // Header Bar 
 
-            .header {
+            .headercontainer {
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
@@ -101,18 +101,18 @@
                 background-color: white;
                 }
                 @media (min-width: 480px) and (max-width: 767.98px) {
-                    .header{
+                    .headercontainer{
                         width: 483px;
                         height: 168px;
                         }
                     } 
                 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-                    .header{
+                    .headercontainer{
                     width: 940px;
                     }
                     } 
                     @media only screen and (min-width: 992px) and (max-width: 1242.98px) {
-                        .header{
+                        .headercontainer{
                             width: 1200px;
                         }
                     }
@@ -359,7 +359,7 @@
                         .sticky {
                          position: fixed;
                          top: 0;
-                         width: 100%
+                         width: 100%;
                            }
 
 
