@@ -83,7 +83,7 @@
                 }
             }
 
-/*Cookie Consent Begin*/
+//Cookie 
 #cookieConsent {
     display: flex;
     flex-direction: column;
@@ -94,9 +94,8 @@
     letter-spacing: 0.4px;
     font-family: "Poppins" , sans-serif;
     position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 25%;
+    left: 35%;
     display: none;
     z-index: 9999;
     .ccheader {
