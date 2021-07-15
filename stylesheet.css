@@ -1245,7 +1245,7 @@ body {
           filter: brightness(50%);
 }
 
-.bannertxt {
+#bannertxt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
